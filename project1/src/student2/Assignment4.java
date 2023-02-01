@@ -8,12 +8,12 @@ public class Assignment4 {
 	System.out.println("defalt constructor");
 	}
     public Assignment4(int a) {
-		this(1,2,3);
+		this(11,22,33);
 		System.out.println("one parameterized constructor");
 		}
 
 	public Assignment4(int c, int b) {
-		this(1);
+		this(11);
 		System.out.println("two paramaterized constructor");
 	}
 
@@ -23,13 +23,13 @@ public class Assignment4 {
 	}
 
 	public Assignment4(int a, int b, int c, int d) {
-		this(1,2);
+		this(11,22);
 		System.out.println("four paramaterized constructor");
 	}
 
 	public static void main(String[] args) {
 		
-		Assignment4 obj1 = new Assignment4(1,2,3,4);	
+		Assignment4 obj1 = new Assignment4(11,22,33,44);	
 
 	}
 
